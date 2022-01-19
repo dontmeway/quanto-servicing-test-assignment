@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { ticketModel } from "entities/ticket";
 import { Fragment } from "react";
 import styles from "./styles.module.scss";
-var a = require("dayjs/plugin/duration");
+
 
 type TickedCardProps = {
   ticket: import("shared/api").Ticket;
